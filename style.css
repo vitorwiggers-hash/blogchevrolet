@@ -1,25 +1,35 @@
-
 header{
-background-color: #183c63;
+background-color: #5e8010;
+color: white;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+border: 5px solid #6357cc;
+padding: 15px;
+}
+
+main{
+background-color: white;
+color: #183C63;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+border: 5px solid #51a8c0;
+padding: 15px;
+}
+
+footer{
+background-color: #183C63;
 color: white;
 text-align: center;
 max-width: 800px;
 margin: 0 auto;
 }
 
-main{
-background-color: white;
-color: #183c63;
-display: flex;
-}
-
-img{
-height: 800px;
-width: 800px;
-}
-
-div P {
+.autor{
 font-weight: bold;
 }
 
-
+img{
+    width: 80%;
+}

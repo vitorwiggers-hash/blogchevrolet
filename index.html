@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blogchevrolet</title>
+    <title>Meu site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
     <header>
-        <h1>Blogchevrolet 1B - CEEPA</h1>
-        <p>Por: Vitor Steiner Wiggers</p>
-        <p>Vou compartilhar os contudos sobre a chevrolet</p>
+        <h1>Evoluçao da logo da Chevrolet</h1>
+       <p>Criado e Editado por: Vitor steiner wiggers </p>
+
+        <p> Bem-vindo ao portal definitivo sobre a história visual de uma das marcas mais icônicas do mundo!</p>
     </header>
 
+
     <main>
-        <img src="Chevrolet-Logo-Historia.jpg"
-            alt="Esta imagem mostra a evolução histórica do logotipo da marca de automóveis Chevrolet, organizada em ordem cronológica de 1911 até o presente. Os logotipos estão dispostos em uma grade com cinco fileiras, e abaixo de cada logo há uma etiqueta azul que indica o período de anos em que ele foi utilizado.">
-
+        <img src="Chevrolet-Logo-Historia.jpg" alt="evolucao da logo da marca Chevrolet">
         <div>
-            <h2>Meu prmeiro post</h2>
-            <p class="autor">por vitor steiner wiggers</p>
-            <p>Bem vindo ao Blogchevrolet!
-                Aqui vocÃª verÃ¡ tudo sobre a historia da marca de automoveis chevrolet.
+            <h2>Explore como a famosa gravata borboleta da Chevrolet se transformou ao longo de mais de um século, refletindo mudanças no design, na cultura e na inovação automotiva. Prepare-se para uma viagem no tempo contada através de traços, cores e emblemas marcantes.</h2>
+            <p class="autor"> por:Vitor steiner wiggers </p>
+            <p><p>Nesta jornada visual, você vai descobrir como um simples traço se transformou em um dos maiores símbolos automotivos do planeta. Tudo começa em 1913, quando o fundador William C. Durant introduziu a famosa gravata borboleta, cuja origem envolve lendas que vão desde papéis de parede franceses até anúncios de jornais.Ao longo das décadas, o emblema acompanhou a evolução do design e da sociedade. O visual robusto e escuro dos anos 1920 e 1930 deu lugar a brasões coloridos na era de ouro dos anos 1950. Já no fim do século XX, a marca apostou no minimalismo e na força da silhueta pura. Hoje, a icônica gravata dourada com textura estilizada une tradição e modernidade, preparando a identidade visual da Chevrolet para o futuro digital e elétrico
             </p>
-            <button> 👍🏼
-                ,
-                ,
-                .+
-                - <span> 0 </span></button>
-        </div>
+            <button> ❤️ <span> 0</span></button>
 
+
+
+
+
+
+
+
+        </div>
     </main>
     <footer>
-        <p>Por: Vitor Steiner Wiggers.</p>
+        <p>Vitor steiner wiggers</p>
     </footer>
 </body>
-<script>
-    const botao = document.querySelectorAll("button");
-    botoes.forEarch(function(botao){
-    botao.addEventListener("click" , botaoClicado);
-    function botaoClicado(){
-        let texto = botao.querySelector("span");
-        texto.textContent++;
-    }
 
-});
+
+
+
+
+
+
+<script>
+    const botoes = document.querySelectorAll("button");
+    botoes.forEach(function (botao) {
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado() {
+            console.log("fui clicado");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    });
 </script>
+
+
+
+
+
 </html>
